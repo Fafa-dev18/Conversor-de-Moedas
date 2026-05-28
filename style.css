@@ -16,13 +16,24 @@ img {
   margin: 0px auto;
 }
 
+h1 {
+  display: block;
+  width: 400px;
+  height: px;
+  margin: 0px auto;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 40px;
+  text-shadow: 4px 6px 2px rgba(0, 0, 0, 0.5);
+}
+
 #div-mom {
   display: block;
   align-items: center;
   width: 375px;
   height: 712px;
   opacity: 1;
-  border-radius: 20px;
+  border-radius: 25px;
   background: white;
   margin: 20px auto;
   padding: 15px auto;
@@ -30,10 +41,10 @@ img {
 
 button {
   width: 327px;
-  height: 48px;
+  height: 50px;
   top: 329px;
   left: 24px;
-  border-radius: 5px;
+  border-radius: 40px;
   margin: auto 22px auto 24px;
   background: #772fd3;
   color: #ffffff;
@@ -49,7 +60,7 @@ button:hover {
   opacity: 0.7;
 }
 
-button:active{
+button:active {
   opacity: 0.5;
 }
 
@@ -58,7 +69,7 @@ button:active{
   background: #ffffff;
   width: 327px;
   height: 276px;
-  border-radius: 20px;
+  border-radius: 40px;
   border-width: 4px;
   border: 1px solid #772fd3;
   margin: 15px auto auto auto;
@@ -82,7 +93,8 @@ button:active{
   height: 48px;
   top: 329px;
   left: 24px;
-  border-radius: 5px;
+  border-radius: 40px;
+  border: 1px solid #9f6ce0;
   margin: 0px 22px 30px 24px;
   padding: 15px;
   font-weight: bold;
@@ -103,30 +115,19 @@ button:active{
 
 .seletor label {
   margin-left: 30px;
-  
 }
 
-#real {
-
+#real,
+#dolarimg {
   width: 44px;
   height: 44px;
-
 }
-#dolar {
 
-  width: 44px;
-  height: 44px;
-
-  
-}
 #seta {
-  
   width: 44px;
   height: 50px;
-
-  
 }
-.paragrafo {
+.paragrafo .convertedCurrencyName {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -136,7 +137,8 @@ button:active{
   text-align: center;
   margin-left: 0px;
 }
-.paragrafovalor {
+.ptoConvert,
+.pConverted {
   font-weight: 700;
   font-size: 20px;
   line-height: 18px;

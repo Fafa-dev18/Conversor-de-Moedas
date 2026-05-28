@@ -17,6 +17,7 @@
       <img src="./Assets/logo1.gif" />
     </header>
     <main>
+      <h1>Conversor De Moedas</h1>
       <div id="div-mom">
         <div class="seletor">
           <label id="margin-top1">Converter <strong>de</strong></label>
@@ -27,38 +28,46 @@
 
         <div class="seletor">
           <label>Converter <strong>para</strong></label>
-          <select>
-            <option>US$ Dólar americano</option>
-            <option>€ Euro</option>
+          <select class="toSelector">
+            <option value="dolar">US$ Dólar americano</option>
+            <option value="euro">€ Euro</option>
           </select>
         </div>
 
         <div class="seletor">
           <label>Valor</label>
-          <input type="number" placeholder="R$ 10.000,00" />
+          <input class="convertvalue" placeholder="R$ 10.000,00" />
         </div>
 
-        <button>Converter</button>
+        <button class="convertbutton">Converter</button>
 
         <section id="div-son">
+          <div>
+            <img
+              id="real"
+              src="./Assets/brasil 2.png"
+              alt="moeda a converter"
+            />
+            <p class="paragrafo">Real</p>
+            <p class="ptoConvert">R$ 00,00</p>
+          </div>
 
-            <div>
-                <img id="real" src="./Assets/brasil 2.png" alt="moeda a converter">
-                <p class="paragrafo">Real</p>
-                <p class="paragrafovalor">R$ 00,00</p>
-            </div>
+          <div>
+            <img id="seta" src="./Assets/Vector.png" alt="seta" />
+          </div>
 
-            <div>
-                <img id="seta" src="./Assets/Vector.png" alt="seta">
-            </div>
-
-            <div>
-                <img id="dolar" src="./Assets/estados-unidos1.png" alt="moeda a convertida">
-                <p class="paragrafo">Dolar</p>
-                <p class="paragrafovalor">$ 00,00</p>
-            </div>
-        </section>    
+          <div>
+            <img
+              id="dolarimg"
+              src="./Assets/estados-unidos1.png"
+              alt="moeda a convertida"
+            />
+            <p class="convertedCurrencyName">Dolar</p>
+            <p class="pConverted">$ 00,00</p>
+          </div>
+        </section>
       </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
