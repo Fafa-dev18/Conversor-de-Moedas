@@ -21,16 +21,18 @@
         <h1>Conversor de Moedas</h1>
         <div class="seletor">
           <label id="margin-top1">Converter <strong>de</strong></label>
-          <select>
-            <option>R$ Real brasileiro</option>
+          <select id="fromSelector">
+              <option value="real">R$ Real brasileiro</option>
           </select>
         </div>
 
         <div class="seletor">
           <label>Converter <strong>para</strong></label>
           <select class="toSelector">
-            <option value="dolar">US$ Dólar americano</option>
-            <option value="euro">€ Euro</option>
+              <option value="dolar">US$ Dólar americano</option>
+              <option value="euro">€ Euro</option>
+              <option value="libra">£ Libra esterlina</option>
+              <option value="real">R$ Real brasileiro</option>
           </select>
         </div>
 
@@ -48,7 +50,7 @@
               src="./Assets/brasil 2.png"
               alt="moeda a converter"
             />
-            <p class="paragrafo">Real</p>
+            <p class="convertedCurrencyName2">Real</p>
             <p class="ptoConvert">R$ 00,00</p>
           </div>
 

@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #6f0af8;
+  background: #ffffff;
 }
 
 img {
@@ -33,6 +33,7 @@ h1 {
   height: 712px;
   opacity: 1;
   border-radius: 25px;
+  border: 3px solid #772fd3;
   background: white;
   margin: 20px auto;
   padding: 15px auto;
@@ -48,6 +49,7 @@ button {
   top: 329px;
   left: 24px;
   border-radius: 40px;
+  border:none;
   flex-direction: column;
   background: #6f0af8;
   color: #ffffff;
@@ -77,7 +79,7 @@ button:active {
   height: 276px;
   border-radius: 40px;
   border-width: 1px;
-  border: 1px solid #772fd3;
+  border: 3px solid #772fd3;
   margin: 15px auto 15px auto;
   display: flex;
   flex-direction: column;
@@ -93,6 +95,7 @@ button:active {
   gap: 8px;
 }
 
+
 .seletor input,
 .seletor select {
   display: border-box;
@@ -101,7 +104,7 @@ button:active {
   top: 329px;
   left: 24px;
   border-radius: 40px;
-  border: 1px solid #9f6ce0;
+  border: 2px solid #9f6ce0;
   margin: 0px 22px 15px 24px;
   padding-left: 4px;
   font-weight: bold;
