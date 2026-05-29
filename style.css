@@ -49,7 +49,7 @@ button {
   top: 329px;
   left: 24px;
   border-radius: 40px;
-  border:none;
+  border: none;
   flex-direction: column;
   background: #6f0af8;
   color: #ffffff;
@@ -94,7 +94,6 @@ button:active {
   flex-direction: column;
   gap: 8px;
 }
-
 
 .seletor input,
 .seletor select {
